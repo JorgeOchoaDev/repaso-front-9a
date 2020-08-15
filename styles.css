@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+
+nav{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #DBDBDB;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    top: 0;
+}
+
+.nav-content{
+    width: 975px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.logo-container{
+    display: flex;
+    flex-basis: 40%;
+    height: 36px;
+    align-items: flex-end;
+}
+
+.search-container{
+    flex-basis: 20%;
+    height: 28px;
+}
+
+.nav-icon{
+    font-size: 22px;
+    color: #262626;
+}
+
+.nav-icons{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+
+.nav-icons:hover{
+    cursor: pointer;
+}
+
+.nav-icons-container{
+    height: 22px;
+    display: flex;
+    flex-basis: 40%;
+    justify-content: flex-end;
+}
+
+.logo{
+    height: 29px;
+}
+
+.search-input{
+    background-color: #FAFAFA;
+    border: 1px solid #B7B7B7;
+    width: 100%;
+    height: 26px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: unset;
+    justify-content: center;
+}
+
+.input-value{
+    margin: 0;
+    height: 80%;
+    width: 100px;
+}
+
+.foto{
+    border-radius: 40px;
+}
+
+.foto-de-card{
+    height: 32px;
+    width: 32px;
+}
+
+.principal{
+    background-color: #FAFAFA;
+    margin-top: 54px;
+}
